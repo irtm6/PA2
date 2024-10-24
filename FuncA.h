@@ -8,7 +8,7 @@ class FuncA
 {
 
 public:
-double count();
+double count(double x, int terms);
 FuncA();
 virtual ~FuncA() {}
 
