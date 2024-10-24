@@ -6,12 +6,10 @@
 
 class FuncA
 {
-
 public:
-double count(double x);
-FuncA();
-virtual ~FuncA() {}
-
+    double count(double x, int terms);
+    FuncA();
+    virtual ~FuncA() {}
 };
 
 #endif
